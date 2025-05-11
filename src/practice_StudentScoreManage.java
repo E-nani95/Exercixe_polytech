@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class practice_StudentScoreManage extends JFrame {
     public practice_StudentScoreManage(){
         setTitle("학생정보관리");
-        setSize(800,500);
+        setSize(610,250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
 
@@ -121,10 +121,11 @@ public class practice_StudentScoreManage extends JFrame {
             }
         });
 
+
         jp_top_left.setBounds(10,10,150,150);
-        jp_top_right.setBounds(200,10,500,150);
+        jp_top_right.setBounds(180,10,400,150);
         jp_bottom_left.setBounds(10, 160, 200, 200);
-        jp_bottom_right.setBounds(200, 160,500, 200);
+        jp_bottom_right.setBounds(240, 165,300, 200);
         add(jp_top_right);
         add(jp_top_left);
         add(jp_bottom_left);
